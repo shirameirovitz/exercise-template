@@ -5,7 +5,9 @@ function run() {
 /**/
     // write your code here
     // out = input + 5;
-
+        const i=[3];
+       out = Array.isArray(i);
+   
 /**/
     output.innerText = out;
 }

@@ -1,8 +1,6 @@
 function getDuplicates(arr){ 
 // [1,2,3,2,6,7,3,1,9] => [1,2,3]
-//לעבור על כל המערך.
-//עבור כל איבר בודקת אם יש כפילויות
-//מוציאה כפילויות למערך ריק אחר
+
 let duplicates= [];
 for(let i=0; i< arr.length; i++) {
     let checkingNow = arr[i];
